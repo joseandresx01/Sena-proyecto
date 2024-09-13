@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: clash;
+    src: url(public/ClashDisplay-Variable.ttf);
+
+}
+.clash{
+    font-family: clash;
+}
+
+
