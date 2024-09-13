@@ -14,7 +14,7 @@ const Info = () => {
     <div className='clash flex flex-col content-center items-center bg-black text-white'>
       <div className='seccion4 flex gap-56 mt-6 z-10'>
         <Link to="/">
-        <div className='volver w-11 bg-zinc-700 pt-3 pb-3 pr-4 pl-4 rounded-lg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#bababa" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" /></svg></div>
+          <div className='volver w-11 bg-zinc-700 pt-3 pb-3 pr-4 pl-4 rounded-lg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#bababa" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" /></svg></div>
         </Link>
         <div className='persona1'><img className='w-11' src={persona1} alt="" /></div>
       </div>
@@ -37,17 +37,17 @@ const Info = () => {
           <img className='absolute top-[480px]' src={izq} alt="" />
         </div>
       </div>
-      <div className='seccion8 flex flex-col items-center content-center'>
-        <Link to="/Battle">
+      <Link to="/Battle">
+        <div className='seccion8 flex flex-col items-center content-center'>
           <div className='arrastrar absolute flex flex-col items-center content-center bg-white rounded-full pt-3 pb-3 pl-1 pr-1 w-12 top-[595px]'>
             <svg className='w-5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#000001" d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" /></svg>
             <svg className='w-5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#7d7d7d" d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" /></svg>
             <svg className='w-5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#e1e1e1" d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" /></svg>
             <img src={pokebola2} alt="" />
           </div>
-        </Link>
-        <h1 className='text-base mt-[153px]'>Swipe up to select</h1>
-      </div>
+          <h1 className='text-base mt-[153px]'>Swipe up to select</h1>
+        </div>
+      </Link>
     </div>
   )
 }
