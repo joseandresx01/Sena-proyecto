@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: clash;
-    src: url(public/ClashDisplay-Variable.ttf);
+    src: url(/ClashDisplay-Variable.ttf);
 
 }
 .clash{
