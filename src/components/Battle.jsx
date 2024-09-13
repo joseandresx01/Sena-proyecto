@@ -35,15 +35,15 @@ const Battle = () => {
       </div>
       <div className='seccion10 flex'>
         <div>
-          <img className='absolute top-24 left-1 z-10 w-32' src={blastoise2} alt="" />
-          <img className='absolute top-0 left-1 z-0 w-44' src={aura2} alt="" />
+          <img className='blastoise2 absolute top-24 left-1 z-10 w-32' src={blastoise2} alt="" />
+          <img className='aura2 absolute top-0 left-1 z-0 w-44' src={aura2} alt="" />
         </div>
         <div>
-          <h1 className='absolute top-36 right-[160px] bg-zinc-900 pt-3 pb-3 pl-2 pr-2 rounded-xl text-zinc-500'>V/S</h1>
+          <h1 className='vs absolute top-36 right-[160px] bg-zinc-900 pt-3 pb-3 pl-2 pr-2 rounded-xl text-zinc-500'>V/S</h1>
         </div>
         <div>
-          <img className='absolute top-20 right-1 z-10 w-32' src={charizard3} alt="" />
-          <img className='absolute top-0 right-1 z-0 w-44' src={aura1} alt="" />
+          <img className='charizard3 absolute top-20 right-1 z-10 w-32' src={charizard3} alt="" />
+          <img className='aura1 absolute top-0 right-1 z-0 w-44' src={aura1} alt="" />
         </div>
       </div>
       <div className='seccion11 flex mt-52 z-10'>
@@ -55,7 +55,7 @@ const Battle = () => {
         </div>
       </div>
       <div className='seccion12'>
-        <img className='w-96' src={raya} alt="" />
+        <img className='raya w-96' src={raya} alt="" />
       </div>
       <div className='seccion13'>
         <h1 className='text-2xl mb-2'>Choose Your Attack</h1>

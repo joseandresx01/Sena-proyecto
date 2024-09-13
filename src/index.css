@@ -11,4 +11,69 @@
     font-family: clash;
 }
 
+@media(min-width:481px) and (max-width: 767px) {
+
+    .seccion1{
+        gap: 330px;
+    }
+
+    .seccion2{
+        margin-right: 200px;
+    }
+
+    .doce{
+      padding-right: 300px;
+      margin-bottom: 64px;  
+    }
+
+    .seccion4{
+        gap: 330px;
+    }
+
+
+    .particulasf{
+        padding: 0%;
+    }
+    .particulas{
+        padding: 0%;
+    }
+    .charizard2{
+        padding: 0%;
+    }
+
+    .seccion7{
+        gap: 280px;
+    }
+
+    .seccion9{
+        margin-top: 9px;
+    }
+    .swipe{
+        margin-bottom: 1px;
+    }
+
+    .blastoise2{
+        margin-left:5px;
+    }
+    .aura2{
+        margin-left:5px;
+    }
+
+    .charizard3{
+        margin-right: 5px;
+    }
+    .aura1{
+        margin-right: 5px;
+    }
+    .vs{
+        margin-right: 60px;
+    }
+    .raya{
+        width: 460px;
+    }
+    .seccion14{
+        gap: 5px;
+    }
+
+}
 

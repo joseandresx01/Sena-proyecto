@@ -19,9 +19,9 @@ const Info = () => {
         <div className='persona1'><img className='w-11' src={persona1} alt="" /></div>
       </div>
       <div className='seccion5'>
-        <img className='flex absolute top-0 p-2' src={particulasf} alt="" />
-        <img className='absolute top-0 p-2' src={particulas} alt="" />
-        <img className='p-5' src={charizard2} alt="" />
+        <img className='particulasf flex absolute top-0 p-2' src={particulasf} alt="" />
+        <img className='particulas absolute top-0 p-2' src={particulas} alt="" />
+        <img className='charizard2 p-5' src={charizard2} alt="" />
       </div>
       <div className='seccion6 flex flex-col items-center content-center'>
         <h1 className='text-4xl font-semibold'>charizard</h1>
@@ -45,7 +45,7 @@ const Info = () => {
             <svg className='w-5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#e1e1e1" d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" /></svg>
             <img src={pokebola2} alt="" />
           </div>
-          <h1 className='text-base mt-[153px]'>Swipe up to select</h1>
+          <h1 className='swipe text-base mt-[153px]'>Swipe up to select</h1>
         </div>
       </Link>
     </div>

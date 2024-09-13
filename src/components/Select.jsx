@@ -29,7 +29,7 @@ const Select = () => {
         <div>
           <img className='pokebolafondo absolute top-14 left-2 z-0 w-80' src={pokeboladefondo} alt="" />
           <img className='absolute top-96 left-6' src={scrollear} alt="" />
-          <h1 className='pr-52 mt-[450px] mb-[44px] text-xl font-extralight'>12 Pokèmons <br /> in your <br /> Pokèdex</h1>
+          <h1 className='doce pr-52 mt-[450px] mb-[44px] text-xl font-extralight'>12 Pokèmons <br /> in your <br /> Pokèdex</h1>
         </div>
         <div className=''>
           <Link to="/Info">
